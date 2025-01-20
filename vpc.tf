@@ -8,6 +8,6 @@ terraform {
   backend "s3" {
     bucket = "corestack-mumbai"
     key    = "terraform.tfstate"
-    region = "ap-south-1"
+    region = "mumbai"
   }
 }

@@ -6,8 +6,8 @@ resource "aws_vpc" "main" {
 
 terraform {
   backend "s3" {
-    bucket = "corestack-mumbai"
-    key    = "terraform.tfstate"
-    region = "ap-south-1"
+    bucket = "ltc-backendtest.tf"
+    key    = "corestack/terraform.tfstate"
+    region = "ap-northeast-3"
   }
 }
